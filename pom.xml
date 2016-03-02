@@ -155,17 +155,6 @@
     </profiles>
 
     <build>
-        <finalName>maven-integration-testing</finalName>
-        <filters>
-            <filter>profiles/${build.profile.id}/config.properties</filter>
-        </filters>
-        <resources>
-            <resource>
-                <filtering>true</filtering>
-                <directory>src/main/resources</directory>
-            </resource>
-        </resources>
-        
         <plugins>
             
             
